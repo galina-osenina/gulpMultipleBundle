@@ -1,0 +1,17 @@
+.light-theme {
+  background-color: #fff;
+  color: #1d1d1d;
+
+  .header {
+      background-color: #fff;
+      border-bottom: 1px solid #ebeaeb;
+  }
+
+  .nav-list__link {
+    color: #1d1d1d;
+  }
+
+  .footer .nav-list__link {
+    color: #fff;
+  }
+}

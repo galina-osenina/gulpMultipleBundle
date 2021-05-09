@@ -1,0 +1,47 @@
+a:hover,
+a:focus {
+  outline: 0;
+}
+
+.button {
+  font-size: 14px;
+  line-height: 1;
+  color: $text-color-primary;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid rgba(234, 234, 234, 0.22);
+  border-radius: 3px;
+  padding: 13px 30px;
+
+  &:hover,
+  &:focus {
+    border-color: #fff;
+    outline: 0;
+  }
+}
+
+.button_bg {
+  background-color: $color-secondary;
+  border-color: $color-secondary;
+}
+
+.button_arrow {
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 13px 30px;
+
+  &:after {
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    border: 1px solid #fff;
+    border-bottom: none;
+    border-right: none;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg) skew(200deg, 200deg);
+  }
+}
